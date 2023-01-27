@@ -178,3 +178,25 @@ img {
     border-radius: 100px;
     font-size: 24px;
 }
+#emplo {
+    height: 470px;
+}
+
+
+#work div[class*="col-"] {
+    display: flex;
+  }
+  
+  #work div[class*="col-"] .card-custom,
+  #work div[class*="col-"] .card-custom-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #work div[class*="col-"] .card-custom-content {
+    flex: 1;
+  }
+  
+  #work div[class*="col-"] .link-custom {
+    margin-top: auto;
+  }
